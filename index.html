@@ -37,7 +37,8 @@
     .nav
         {
             background-color: aliceblue;
-            text-align:center;
+            text-align:center center;
+            height:60px;
         }
         
     body
@@ -52,7 +53,10 @@
             width: 98%;
         }
         
-        
+        .form-inline
+        {
+            position: right center;
+        }
         
         
 	</style>
@@ -73,19 +77,19 @@
 	</div>
    
    <ul class="nav nav-pills">
+     
+      <li class="button"><a href="index.html">Home</a></li>
   
-  <li role="presentation" class="dropdown">
+   <li role="presentation" class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
       Living Well
     </a>
     <ul class="dropdown-menu">
-            <li><a href="Exercise.html">Quick And Easy Excercise</a></li>
+            <li><a href="assets/pages/livingWell/Exercise.html">Quick And Easy Excercise</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="Myths.html">Myths And Truths</a></li>
+            <li><a href="assets/pages/livingWell/stress.html">Dealing With Stress</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="stress.html">Dealing With Stress</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="time.html">Time Management</a></li>
+            <li><a href="assets/pages/livingWell/time.html">Time Management</a></li>
      </ul>
     
   </li>
@@ -94,9 +98,9 @@
       Things To Do
     </a>
     <ul class="dropdown-menu">
-            <li><a href="NearYou.html">Near You</a></li>
+            <li><a href="assets/pages/ThingsToDo/NearYou.html">Near You</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="TalksInLdn.html">Talks In London</a></li>
+            <li><a href="assets/pages/ThingsToDo/TalksInLdn.html">Talks In London</a></li>
     </ul>
   </li>
   
@@ -105,11 +109,11 @@
       Career Help
     </a>
     <ul class="dropdown-menu">
-            <li><a href="books.html">Books</a></li>
+            <li><a href="assets/pages/career/books.html">Books</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="CV.html">CV Help</a></li>
+            <li><a href="assets/pages/career/CV.html">CV Help</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="tips.html">Useful Tips</a></li>
+            <li><a href="assets/pages/career/tips.html">Useful Tips</a></li>
     </ul>
   </li>
   
@@ -118,15 +122,15 @@
       About Us
     </a>
     <ul class="dropdown-menu">
-            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="assets/pages/aboutUs/aboutUs.html">About Us</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="assets/pages/aboutUs/contact.html">Contact Us</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="subscribe.html">Subscribe</a></li>
+            <li><a href="assets/pages/aboutUs/subscribe.html">Subscribe</a></li>
     </ul>
   </li>
    
-    <form class="form-inline pull-xs-right-center">
+    <form class="form-inline pull-xs-right">
     <input class="form-control" type="text" placeholder="Search">
     <button class="btn btn-success-outline" type="submit">Search</button>
     </form>
